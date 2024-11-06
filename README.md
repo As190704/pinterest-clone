@@ -1,6 +1,6 @@
 this is a multi step work to make a pinterest clone in this
 
-## ffirst :-
+## first :-
 i make all file by just html5,css3,and js
 
 ## second:-

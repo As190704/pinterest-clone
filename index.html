@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pinterest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <span class="logo">Pinterest</span>
+      <button class="nav-btn">Today</button>
+    <button class="nav-btn">Watch</button>
+    <button class="nav-btn1">Explore</button>
+      <input type="text" placeholder="Search..." class="search-bar">
+      <div class="profile-icon">👤</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid">
+      <!-- Pins -->
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1730405704088-3d8f36e32b62?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sample Image">
+        <button class="save-btn" data-saved="false">Save</button>
+      </div>
+      <div class="grid-item">
+        <img src="https://images.unsplash.com/photo-1730544510231-d63fffb42aa4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sample Image">
+        <button class="save-btn" data-saved="false">Save</button>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </main>
+
+  <!-- Modal for full-size image view -->
+  <div class="modal" id="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" alt="Full Size Image" id="modalImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
